@@ -1,4 +1,3 @@
-# Trybe
 ### Repository for the exercises performed during training at Trybe Software Development course.
 
 In this repository are all the exercises performed during my training, starting with shellscript, after, introduction to web development, Front-end and Back-end.
