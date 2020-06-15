@@ -12,7 +12,7 @@
 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, … como valores da lista. Essa lista deve ser filha do div criado no passo 6;
 9. Adicione 3 tags h3, todas sendo filhas do div criado no passo 2.
 
-### Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
+### Alterando e removendo elementos:
 
 1. Adicione a classe title na tag h1 criada;
 2. Adicione a classe description nas 3 tags h3 criadas;
