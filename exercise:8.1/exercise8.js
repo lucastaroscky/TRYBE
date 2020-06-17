@@ -88,7 +88,9 @@ const expected_result = [
 ]
 
 function oldBooks() {
-let sortedArray = books.filter()
+let sortArray = books.filter(book => book.releaseYear < 1960);
+sortArray.sort((a, b) => {return a.releaseYear - b.releaseYear})
+return sortArray
 }
 
 assert.deepEqual(oldBooks(), expected_result);
