@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #070a33bf;
+
+}
+
+.container-flex-top {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.container-left {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 115px 60px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.title-h1 {
+  font-weight: 700;
+  font-size: 80px;
+  color: whitesmoke;
+  line-height: 75px;
+}
+
+.sub-p {
+  font-weight: 200;
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+.mark {
+  color: rgb(212, 111, 29);
+}
+
+.container-right {
+  width: 40%;
+  height: 1050px;
+  display: flex;
+  flex-direction: column;
+  background-color: #00000061;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.label {
+  color: white;
+  font-weight: 300 !important;
+}
+
+.label-p {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 100;
+  color: white;
+}
+
+.paragraph {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.control-container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#radio {
+margin-right: 10px;
+}
+
+.validation {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: whitesmoke;
+  align-items: center;
+  padding: 100px 0 20px 0;
+}
+
+
