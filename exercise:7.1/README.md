@@ -6,7 +6,7 @@
 
 2. Crie uma função que receba uma frase e retorne qual a maior palavra.
     
-1. Crie uma página que contenha:
+3 . Crie uma página que contenha:
 
 - Um botão ao qual será associado um event listener;
 
@@ -14,7 +14,7 @@
 
 - Um campo no HTML que vá atualizando a quantidade de clicks no botão conforme a variável clickCount é atualizada.
 
-3. Crie um código JavaScript com a seguinte especificação:
+4. Crie um código JavaScript com a seguinte especificação:
 
 - Função 1: Escreva uma função que vai receber uma string como parâmetro. Sua função deverá procurar pela letra x em uma string qualquer que você determinar e substituir pela string que você passou como parâmetro. Sua função deve retornar essa nova string.
 

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button class="btn">click me</button>
+  <div>
+    <p class="p"></p>
+  </div>
+</body>
+<script>
+  let counter = 0;
+  let btn = document.getElementsByClassName('btn')[0];
+  let text = document.getElementsByClassName('p')[0]
+    btn.addEventListener('click', () => text.innerHTML = counter += 1)
+</script>
+</html>
