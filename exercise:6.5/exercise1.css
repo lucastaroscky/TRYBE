@@ -1,0 +1,219 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+ 
+}
+
+h2 {
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+
+
+
+@media screen and (min-width: 100px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+  }
+
+  h1,
+  h2 {
+    width: inherit;
+    height: auto;
+    text-align: center;
+    font-size: 25px;
+    background-color: teal;
+    color: white
+  }
+
+  p {
+    width: 200px;
+    height: auto;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 200;
+    height: auto;
+    padding: 20px 0 20px 0;
+  }
+
+  figure {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   width: 200px;
+   height: auto;
+   color: black;
+   text-transform: lowercase;
+   font-style: italic;
+   font-size: 15px;
+ }
+}
+
+@media screen and (min-width: 380px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1,
+  h2 {
+    width: inherit;
+    height: auto;
+    text-align: center;
+    background-color: lightcoral;
+  }
+
+  p {
+    width: 300px;
+    height: auto;
+    text-align: justify;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    padding: 40px 0 20px 0;
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: auto;
+    color: black;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1,
+  h2 {
+    width: inherit;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  p {
+    width: 500px;
+    height: auto;
+    text-align: justify;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+    padding: 50px 0 20px 0;
+  }
+
+  figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: auto;
+    color: black;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width : 760px) {
+
+  .pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    color: black;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 15px;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 80%;
+    height: auto;
+    margin-left: 5px;
+    margin-left: 5px;
+  }
+
+  h1,
+  h2 {
+    width: inherit;
+    height: auto;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  p {
+    width: 90%;
+    height: auto;
+    text-align: justify;
+  }
+
+}
+
+@media screen and (min-width : 1200px){
+
+  .pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    color: black;
+    text-transform: lowercase;
+    font-style: italic;
+    font-size: 15px;
+    
+  }
+
+  p {
+    width: 90%;
+    height: auto;
+    text-align: justify;
+    font-size: 20px;
+  }
+}
